@@ -55,15 +55,15 @@ defmodule FlameOn.MixProject do
   defp deps do
     [
       {:ets, "~> 0.9.0"},
-      {:dialyxir, "~> 1.4.1", only: [:dev, :test], runtime: false},
-      {:mix_test_watch, "~> 1.1.0", only: :dev, runtime: false},
-      {:ex_doc, "~> 0.28.0", only: :dev, runtime: false},
-      {:ecto, "~> 3.7"},
+      {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
+      {:mix_test_watch, "~> 1.2", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.37", only: :dev, runtime: false},
+      {:ecto, "~> 3.12"},
       {:meck, "~> 0.9.2"},
-      {:gettext, "~> 0.21"},
-      {:jason, "~> 1.0"},
-      {:phoenix_ecto, "~> 4.6.1"},
-      {:phoenix_live_dashboard, "~> 0.8.3"},
+      {:gettext, "~> 0.26"},
+      {:jason, "~> 1.4"},
+      {:phoenix_ecto, "~> 4.6"},
+      {:phoenix_live_dashboard, "~> 0.8"},
       {:phoenix_live_view, "~> 1.0"},
       {:phoenix_html, "~> 4.0"},
       {:phoenix_html_helpers, "~> 1.0.1"}
